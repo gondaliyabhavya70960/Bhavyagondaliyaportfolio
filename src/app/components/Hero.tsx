@@ -6,7 +6,7 @@ import CountUp from 'react-countup';
 import { Link as ScrollLink } from 'react-scroll';
 
 // Imported from Figma
-const HERO_IMAGE_URL = "figma:asset/dd3aa5fe7ac44ae4220d5d1d4ea8f99561b471ee.png";
+const HERO_IMAGE_URL = "https://github.com/gondaliyabhavya70960/Portfolio/blob/main/image-3%20(urban%20lifestyle%20photo).png?raw=true";
 
 export const Hero: React.FC = () => {
   return (
