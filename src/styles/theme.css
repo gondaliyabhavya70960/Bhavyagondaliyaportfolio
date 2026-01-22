@@ -1,0 +1,34 @@
+@theme {
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-heading: 'Poppins', system-ui, sans-serif;
+  --font-mono: 'IBM Plex Mono', monospace;
+
+  --color-primary-blue: #3B82F6;
+  --color-primary-blue-hover: #2563EB;
+  --color-primary-blue-light: #DBEAFE;
+  
+  --color-neutral-bg: #0F172A;
+  --color-neutral-surface: #1E293B;
+  --color-neutral-surface-medium: #334155;
+  
+  --color-text-primary: #F1F5F9;
+  --color-text-secondary: #CBD5E1;
+  --color-text-tertiary: #94A3B8;
+
+  --color-accent-success: #10B981;
+  --color-accent-warning: #F59E0B;
+  --color-accent-error: #EF4444;
+  --color-accent-teal: #14B8A6;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-neutral-bg);
+    color: var(--color-text-primary);
+    font-family: var(--font-sans);
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+  }
+}
