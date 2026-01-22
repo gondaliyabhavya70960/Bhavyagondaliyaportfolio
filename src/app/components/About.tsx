@@ -16,12 +16,13 @@ const SKILLS = [
   { icon: <Bot />, label: 'AI' },
 ];
 
-const PROFILE_IMAGE_URL = "figma:asset/111bd811fe1543384048bc756e4aab1f8ec08ca6.png";
+const PROFILE_IMAGE_URL = "https://github.com/gondaliyabhavya70960/Bhavyagondaliyaportfolio/blob/main/src/assets/image-3%20(urban%20lifestyle%20photo).png?raw=true";
 
 export const About: React.FC = () => {
   return (
     <Section id="about" className="bg-[#0F172A]">
       <motion.div
+        
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
